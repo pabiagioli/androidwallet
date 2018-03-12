@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.pampanet.mobile.walletchallenge.activity.WalletActivity"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/wallet_addr_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wallet Address: Not created yet"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/create_wallet_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Wallet"
+        app:layout_constraintTop_toBottomOf="@id/wallet_addr_txt"/>
+    <Button
+        android:id="@+id/wallet_private_key_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Wallet's Private Key"
+        app:layout_constraintTop_toBottomOf="@id/create_wallet_btn"/>
+    <Button
+        android:id="@+id/wallet_addr_change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Wallet Address"
+        app:layout_constraintTop_toBottomOf="@id/wallet_private_key_btn"
+        android:visibility="gone"/>
+
+</android.support.constraint.ConstraintLayout>

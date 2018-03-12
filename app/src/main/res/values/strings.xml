@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WalletChallenge</string>
+    <string name="enter_pin">Enter your PIN</string>
+    <string name="ok_btn">OK</string>
+    <string name="wallet_address">Wallet Address: %s</string>
+    <string name="pin_incorrect">The PIN you entered is incorrect</string>
+    <string name="too_many_pin_attempts">Too many PIN attempts. Please try again later</string>
+    <string name="pin_short">PIN not long enough</string>
+    <string name="pin_is_old">The PIN must be a new one</string>
+</resources>
